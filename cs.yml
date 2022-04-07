@@ -2,7 +2,7 @@
 en:
   activerecord:
     models:
-      answer: Odpověď
+      answer: AOdpověď
       certificate: Certifikát
       certificate_template: Šablona certifikátu
       feature: Funkce
