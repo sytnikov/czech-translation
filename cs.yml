@@ -1,5 +1,5 @@
 ---
-en:
+cs:
   activerecord:
     models:
       answer: Odpověď
@@ -234,6 +234,8 @@ en:
         save_logo: Uložit logo
         save_favicon_logo: Uložit logo favicon
         go_to_themes: Přejít na nastavení motivu
+        sign_in_text: "Sign in text #translate"
+        sign_up_text: "Sign up text #translate"
       domain:
         form:
           placeholder: example.yourdomain.tld
@@ -286,8 +288,8 @@ en:
           public: veřejný
           subtitle: Získejte upozornění ve slacku
           text:
-             Když je kurz zveřejněn nebo přidána lekce, MarbleBot vás upozorní
-             přes Slack.
+            Když je kurz zveřejněn nebo přidána lekce, MarbleBot vás upozorní
+            přes Slack.
           title: Oznámení
       settings_navigation:
         brand: "Značka"
@@ -316,8 +318,7 @@ en:
       course_body_text_color: Barva textu těla kurzu
       course_design: Design kurzu
       course_design_subtitle: Podnapis designu kurzu
-      delete_image:
-        not_deleted: "Je nám líto, tento obrázek jsme nemohli smazat."
+      delete_image: "Delete image #translate"
       go_to: Přejít na nastavení motivu
       images: Obrázky
       images_subtitle: Přizpůsobte si obrázky zobrazené ve vaší akademii.
@@ -459,8 +460,10 @@ en:
       support: Podpora
       templates: Šablony
       upgrade_plan: "Plán upgradu!"
+      create_academy: "Create Academy #translate"
     _navbar_tenants:
       account_question: Máte účet?
+      no_account_question: "No account yet? #translate"
   notification_mailer:
     new_path_notification:
       email: Email
@@ -500,6 +503,8 @@ en:
       subscribe_for: Předplatné pro
       buy_course: Koupit
       buy_for: Koupit za
+      drafts: "Drafts #translate"
+      anyone_in_academy: "Anyone registered in %{academy_name}"
     show_settings:
       delete_image: Odstranit obrázek
       restore_image: Obnovení výchozího nastavení
@@ -554,6 +559,7 @@ en:
         one: "%{count} lekce"
         other: "%{count} lekcí"
       view_path: Zobrazit kurz
+      duplicate: "Duplicate course #translate"
     _paths_list:
       create_first_path: Vytvořte svůj první kurz
       no_paths: Zatím zde nejsou žádné kurzy.
@@ -591,7 +597,7 @@ en:
       all_learners: Všichni studenti
       assign_users: Přiřadit uživatele
       assign_users_text:
-         Můžete přiřadit jednotlivé uživatele, kteří budou moci zobrazit
+        Můžete přiřadit jednotlivé uživatele, kteří budou moci zobrazit
         kurz a jsou o kurzu informováni.
       change_timezone: Zde změňte své časové pásmo
       currently_in: Momentálně se nacházíte
@@ -625,10 +631,13 @@ en:
       path_published: Kurz byl úspěšně publikován.
       send_invitations: Odeslat pozvánky
       not_published: "Tento kurz ještě není publikován."
+      not_authorized: "Not authorized access. #translate"
     show_share:
       sharelink:
         button: Kopírovat
         title: Sdílet tento odkaz
+      embed_this_course: ""
+      embed_description: ""
     templates:
       create_template: Vytvořit ze šablony
       title: Šablony
@@ -636,7 +645,7 @@ en:
     create_from_template:
       created: "Kurz byl úspěšně vytvořen ze šablony."
     restore_default_image:
-      not_deleted: "Nepodařilo se nám smazat obrázek na pozadí."
+      not_deleted: "The image couldn't be deleted. #translate"
     publish:
       published: "Kurz byl úspěšně publikován."
       limit: "Dosáhli jste limitu svého plánu. Zvažte upgrade svého účtu na stránce Správce > Fakturace."
@@ -653,6 +662,12 @@ en:
     invite_user: "Student byl úspěšně pozván."
     validations:
       limit_mb: "Je větší než 5MB"
+    _edit_cover_image_modal:
+      title: "Change course cover image #translate"
+      label:
+        banner: "Cover image #translate"
+        banner_instructions: "Max size: 3000 x 1500 px #translate"
+      restore: "Restore default image #translate"
   questions:
     shared:
       correct: Správná odpověď!
@@ -663,6 +678,10 @@ en:
       answer: Zkontrolujte správnou odpověď
       created: "Otázka byla úspěšně vytvořena."
       deleted: "Otázka byla úspěšně smazána."
+      survey_feedback: "Your answer is submitted. #translate"
+      survey: "survey #translate"
+      quiz: "quiz #translate"
+      answers: "Answers #translate"
     _option_fields:
       option: Možnost
       answer: Kontrola odpovědi
@@ -670,6 +689,7 @@ en:
       add_option: Přidat možnost
       ask_question: Můžete se zeptat...
       save_options: Uložit možnosti
+      convert_to: "Convert to %{type_of_question} #translate"
     _view_question:
       title: Kvízová otázka
     modal_failure:
@@ -698,6 +718,7 @@ en:
       password_text: Vaše heslo by mělo mít alespoň 6 znaků (a obsahovat čísla a speciální znaky pro dodatečné zabezpečení)
       _links:
         forgot: Zapoměli jste své heslo?
+      choose_password: "Choose a password #translate"
     profiles:
       certificates:
         no_certificate: Ještě nemáte žádný vydaný certifikát
@@ -709,6 +730,11 @@ en:
         no_courses: Zatím nemáte žádné dostupné kurzy.
       billing:
         no_billing: Zatím neproběhla žádná objednávka ani platba.
+        renovates_at: "Renovates at #translate"
+        expires_at: "Expires at #translate"
+        canceled_at: "Canceled at #translate"
+        cancel_subscription: "Cancel subscription #translate"
+        proceed_with_cancellation: "If you cancel your subscription, you will have access to the course until %{date}. Do you want to proceed with the cancellation? #translate"
       show:
         overview: Přehled
         progress: Pokrok studenta
@@ -723,21 +749,15 @@ en:
         title: Jít na %{tenant}
     mailer:
       invitation_instructions:
-        body_html:
-         vás pozval do akademie <strong>%{tenant}</strong>. Připojit se
-          teď a můžete absolvovat kurz!
+        body_html: "vás pozval do akademie <strong>%{tenant}</strong>. Připojit se teď a můžete absolvovat kurz!"
         cta: Přejděte na kurz.
         title: Přejděte na %{tenant} v Marble
       reset_password_instructions:
-        body:
-          "Oznámili jste nám, že jste zapomněli heslo. Pokud jste to opravdu udělali, klikněte sem."
-          vybrat nové:"
+        body: "Oznámili jste nám, že jste zapomněli heslo. Pokud jste to opravdu udělali, klikněte sem. vybrat nové:"
         cta: Zvolte nové heslo
-        hint: "“Tlačítko "Vybrat nové heslo" nefunguje??"
+        hint: "Tlačítko 'Vybrat nové heslo' nefunguje?"
         hint2: "Stačí zkopírovat a vložit tento odkaz do prohlížeče:"
-        no_reset:
-          Pokud jste nechtěli resetovat heslo, můžete ignorovat
-          tento email; vaše heslo se nezmění.
+        no_reset: "Pokud jste nechtěli resetovat heslo, můžete ignorovat tento email; vaše heslo se nezmění."
         title: Obnovit heslo
     passwords:
       edit:
@@ -748,7 +768,7 @@ en:
       new:
         reset_link: Získat odkaz pro resetování hesla
         subtitle_html:
-          Chcete-li obnovit heslo, zadejte e-mailovou adresu, kterou používáte a 
+          Chcete-li obnovit heslo, zadejte e-mailovou adresu, kterou používáte a
           přihlaste se k <strong>%{tenant}</strong>.
     registrations:
       new:
@@ -781,6 +801,14 @@ en:
       not_found: "Akademie nenalezena."
       enter_name: "Zadejte název studijního prostoru."
   global:
+    course_plural: #translate
+      zero: Course
+      one: Course
+      other: Courses
+    draft_plural: #translate
+      zero: Draft
+      one: Draft
+      other: Drafts
     back: Zpět
     cancel: Zrušit
     close: Zavřít
@@ -872,6 +900,9 @@ en:
     all_rights_reserved: "Všechna práva vyhrazena"
     thanks: "Děkujeme"
     ceo_and_founder: "CEO a zakladatel Marble"
+    rename: "Rename #translate"
+    folders: "Collections #translate"
+    visit: "Visit #translate"
   certificates:
     issue_automatic_certificate: "Gratulujeme, máte nový certifikát! Můžete si jej prohlédnout a stáhnout ze stránky svého profilu."
   tenants:
@@ -1041,3 +1072,6 @@ en:
       contact_support1: "Neváhejte kontaktovat naše"
       contact_support2: "tým podpory"
       contact_support3: "pokud máte nějaký technický problém. (Odpovídáme bleskově.)"
+  folders:
+    rename: "Rename folder #translate"
+  not_created: "Not created #translate"
