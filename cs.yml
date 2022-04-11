@@ -127,7 +127,7 @@ cs:
       show:
         action:
           remove: Odebrat ze skupiny
-        col_name: Jmono
+        col_name: Jméno
         modal_form_name_placeholder: Název
         modal_form_users_label: Přidat uživatele
         modal_form_users_placeholder: Vyberte uživatele
@@ -234,8 +234,8 @@ cs:
         save_logo: Uložit logo
         save_favicon_logo: Uložit logo favicon
         go_to_themes: Přejít na nastavení motivu
-        sign_in_text: "Sign in text #translate"
-        sign_up_text: "Sign up text #translate"
+        sign_in_text: "Přihlášení"
+        sign_up_text: "Registrace"
       domain:
         form:
           placeholder: example.yourdomain.tld
@@ -318,7 +318,7 @@ cs:
       course_body_text_color: Barva textu těla kurzu
       course_design: Design kurzu
       course_design_subtitle: Podnapis designu kurzu
-      delete_image: "Delete image #translate"
+      delete_image: "Vymazat obrázek"
       go_to: Přejít na nastavení motivu
       images: Obrázky
       images_subtitle: Přizpůsobte si obrázky zobrazené ve vaší akademii.
@@ -460,10 +460,10 @@ cs:
       support: Podpora
       templates: Šablony
       upgrade_plan: "Plán upgradu!"
-      create_academy: "Create Academy #translate"
+      create_academy: "Vytvořit akademii"
     _navbar_tenants:
       account_question: Máte účet?
-      no_account_question: "No account yet? #translate"
+      no_account_question: "Nemáte účet?"
   notification_mailer:
     new_path_notification:
       email: Email
@@ -503,8 +503,8 @@ cs:
       subscribe_for: Předplatné pro
       buy_course: Koupit
       buy_for: Koupit za
-      drafts: "Drafts #translate"
-      anyone_in_academy: "Anyone registered in %{academy_name}"
+      drafts: "Návrhy"
+      anyone_in_academy: "Někdo se zaregistroval do %{academy_name}"
     show_settings:
       delete_image: Odstranit obrázek
       restore_image: Obnovení výchozího nastavení
@@ -559,7 +559,7 @@ cs:
         one: "%{count} lekce"
         other: "%{count} lekcí"
       view_path: Zobrazit kurz
-      duplicate: "Duplicate course #translate"
+      duplicate: "Duplikovat kurz"
     _paths_list:
       create_first_path: Vytvořte svůj první kurz
       no_paths: Zatím zde nejsou žádné kurzy.
@@ -631,7 +631,7 @@ cs:
       path_published: Kurz byl úspěšně publikován.
       send_invitations: Odeslat pozvánky
       not_published: "Tento kurz ještě není publikován."
-      not_authorized: "Not authorized access. #translate"
+      not_authorized: "Neoprávněný přístup"
     show_share:
       sharelink:
         button: Kopírovat
@@ -645,7 +645,7 @@ cs:
     create_from_template:
       created: "Kurz byl úspěšně vytvořen ze šablony."
     restore_default_image:
-      not_deleted: "The image couldn't be deleted. #translate"
+      not_deleted: "Obrázek se nepodařilo smazat."
     publish:
       published: "Kurz byl úspěšně publikován."
       limit: "Dosáhli jste limitu svého plánu. Zvažte upgrade svého účtu na stránce Správce > Fakturace."
@@ -663,11 +663,11 @@ cs:
     validations:
       limit_mb: "Je větší než 5MB"
     _edit_cover_image_modal:
-      title: "Change course cover image #translate"
+      title: "Změnit titulní obrázek kurzu"
       label:
-        banner: "Cover image #translate"
-        banner_instructions: "Max size: 3000 x 1500 px #translate"
-      restore: "Restore default image #translate"
+        banner: "Titulní obrázek kurzu"
+        banner_instructions: "Maximální velikost: 3000 x 1500 px"
+      restore: "Obnovit výchozí obrázek"
   questions:
     shared:
       correct: Správná odpověď!
@@ -678,10 +678,10 @@ cs:
       answer: Zkontrolujte správnou odpověď
       created: "Otázka byla úspěšně vytvořena."
       deleted: "Otázka byla úspěšně smazána."
-      survey_feedback: "Your answer is submitted. #translate"
-      survey: "survey #translate"
-      quiz: "quiz #translate"
-      answers: "Answers #translate"
+      survey_feedback: "Vaše odpověď je odeslána"
+      survey: "průzkum"
+      quiz: "kvíz"
+      answers: "Odpovědi"
     _option_fields:
       option: Možnost
       answer: Kontrola odpovědi
@@ -689,7 +689,7 @@ cs:
       add_option: Přidat možnost
       ask_question: Můžete se zeptat...
       save_options: Uložit možnosti
-      convert_to: "Convert to %{type_of_question} #translate"
+      convert_to: "Převést na %{type_of_question}"
     _view_question:
       title: Kvízová otázka
     modal_failure:
@@ -718,7 +718,7 @@ cs:
       password_text: Vaše heslo by mělo mít alespoň 6 znaků (a obsahovat čísla a speciální znaky pro dodatečné zabezpečení)
       _links:
         forgot: Zapoměli jste své heslo?
-      choose_password: "Choose a password #translate"
+      choose_password: "Vyberte si heslo"
     profiles:
       certificates:
         no_certificate: Ještě nemáte žádný vydaný certifikát
@@ -730,11 +730,11 @@ cs:
         no_courses: Zatím nemáte žádné dostupné kurzy.
       billing:
         no_billing: Zatím neproběhla žádná objednávka ani platba.
-        renovates_at: "Renovates at #translate"
-        expires_at: "Expires at #translate"
-        canceled_at: "Canceled at #translate"
-        cancel_subscription: "Cancel subscription #translate"
-        proceed_with_cancellation: "If you cancel your subscription, you will have access to the course until %{date}. Do you want to proceed with the cancellation? #translate"
+        renovates_at: "Obnovit na"
+        expires_at: "Platnost vyprší"
+        canceled_at: "Zrušeno"
+        cancel_subscription: "Zrušeno předplatné"
+        proceed_with_cancellation: "Pokud zrušíte své předplatné, budete mít přístup do kurzu do %{date}. Chcete pokračovat ve zrušení?"
       show:
         overview: Přehled
         progress: Pokrok studenta
@@ -802,13 +802,13 @@ cs:
       enter_name: "Zadejte název studijního prostoru."
   global:
     course_plural: #translate
-      zero: Course
-      one: Course
-      other: Courses
+      zero: Kurzů
+      one: Kurz
+      other: Kurzy
     draft_plural: #translate
-      zero: Draft
-      one: Draft
-      other: Drafts
+      zero: Návrhů
+      one: Návrh
+      other: Návrhy
     back: Zpět
     cancel: Zrušit
     close: Zavřít
@@ -900,9 +900,9 @@ cs:
     all_rights_reserved: "Všechna práva vyhrazena"
     thanks: "Děkujeme"
     ceo_and_founder: "CEO a zakladatel Marble"
-    rename: "Rename #translate"
-    folders: "Collections #translate"
-    visit: "Visit #translate"
+    rename: "Přejmenovat"
+    folders: "Sbírky"
+    visit: "prohlížet"
   certificates:
     issue_automatic_certificate: "Gratulujeme, máte nový certifikát! Můžete si jej prohlédnout a stáhnout ze stránky svého profilu."
   tenants:
@@ -1073,5 +1073,5 @@ cs:
       contact_support2: "tým podpory"
       contact_support3: "pokud máte nějaký technický problém. (Odpovídáme bleskově.)"
   folders:
-    rename: "Rename folder #translate"
-  not_created: "Not created #translate"
+    rename: "Přejmenovat složku"
+  not_created: "Nevytvořeno"
